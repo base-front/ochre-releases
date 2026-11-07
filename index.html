@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ochre</title>
+<link rel="icon" href="icon.png">
+<!-- Ochre's look (DockStyle): bg/default, fg/primary, fg/secondary, fg/muted, the compose box
+     and Save (bg/control with fg/inverse, 600); Commit Mono throughout, all lowercase, no bold.
+     release.sh fills in the version, its release date and the notes, and puts icon.png (from this folder) and the
+     font beside it. -->
+<style>
+  @font-face { font-family: "Commit Mono"; src: url("CommitMono-Variable.ttf") format("truetype"); font-weight: 100 900; }
+  :root { color-scheme: dark light;
+          --bg: #161618; --fg: #CAC9CC; --fg2: #A5A5AA; --muted: #7E7E86;
+          --box: #27282B; --control: #A5A5AA; --control-hover: #CAC9CC; --on-control: #161618; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #F7F7F8; --fg: #2A2A2E; --fg2: #55555B; --muted: #85858C;
+            --box: #F2F2F4; --control: #55555B; --control-hover: #2A2A2E; --on-control: #FFFFFF; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--fg);
+         font: 450 14px/1.6 "Commit Mono", ui-monospace, monospace; text-transform: lowercase;
+         -webkit-font-smoothing: antialiased; }
+  main { width: min(420px, 100% - 36px); padding: 56px 0; }
+  .icon { display: block; width: 96px; height: 96px; margin: 0 auto 14px; }
+  h1 { margin: 0; font-size: 22px; font-weight: 450; text-align: center; }
+  .version { margin: 2px 0 28px; color: var(--muted); font-size: 12px; text-align: center; }
+  .download { display: flex; align-items: center; justify-content: center; height: 44px; border-radius: 12px;
+              background: var(--control); color: var(--on-control); text-decoration: none; font-weight: 600; font-size: 13px; }
+  .download:hover { background: var(--control-hover); }
+  h2 { margin: 36px 0 10px; font-size: 12px; font-weight: 450; color: var(--muted); }
+  .box { margin: 0; padding: 16px 18px 16px 36px; background: var(--box); border-radius: 12px; color: var(--fg2); }
+  .box li + li { margin-top: 8px; }
+  .notes { padding-left: 18px; }
+  .notes p { margin: 0; }
+  .notes p + p, .notes p + ul, .notes ul + p { margin-top: 8px; }
+  .notes ul { margin: 0; padding-left: 18px; }
+  code { font: inherit; color: var(--fg); }
+  .aside { color: var(--muted); }
+  footer { margin-top: 24px; font-size: 12px; color: var(--muted); }
+  a { color: inherit; text-underline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="">
+  <h1>ochre</h1>
+  <p class="version">version 0.1.0</p>
+  <a class="download" href="https://github.com/base-front/ochre-releases/releases/download/v0.1.0/Ochre-0.1.0.dmg">download ochre</a>
+
+  <h2>what's new · 7 Nov 2026</h2>
+  <div class="box notes">
+    <p>The first test build. Thanks for trying Ochre!</p>
+    <ul>
+      <li>Save links, notes, to-dos and images; sort them into folders.</li>
+      <li>Send feedback with the star bubble at the bottom left of the side panel.</li>
+    </ul>
+  </div>
+
+  <h2>installing</h2>
+  <ol class="box">
+    <li>open the dmg and drag ochre to applications.</li>
+    <li>open ochre. macos says it can’t check the app; click done.</li>
+    <li>go to system settings → privacy &amp; security, scroll down and click open anyway, then confirm.
+      <span class="aside">only needed once.</span></li>
+    <li>that’s it. new versions install by themselves when ochre quits; ochre → check for updates… checks right away.</li>
+  </ol>
+  <footer><a href="https://github.com/base-front/ochre-releases/releases">all versions</a></footer>
+</main>
+</body>
+</html>

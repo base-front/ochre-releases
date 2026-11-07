@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ochre</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sat, 07 Nov 2026 18:06:54 +0000</pubDate>
+            <link>https://base-front.github.io/ochre-releases/</link>
+            <sparkle:version>165</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The first test build. Thanks for trying Ochre!
+
+- Save links, notes, to-dos and images; sort them into folders.
+- Send feedback with the star bubble at the bottom left of the side panel.
+]]></description>
+            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.0/Ochre-0.1.0.dmg" length="14270042" type="application/octet-stream" sparkle:edSignature="xMUR6HGCihidS+IwLkoti7/QyDm5d8bDoa/jUVs5NgyQ5H31bG4mItq7ykNmFejXCrJMbxFdy7lrG2mT7Ps2Bw=="/>
+        </item>
+    </channel>
+</rss>
