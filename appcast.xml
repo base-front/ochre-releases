@@ -3,6 +3,22 @@
     <channel>
         <title>Ochre</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Sat, 07 Nov 2026 23:10:54 +0000</pubDate>
+            <link>https://base-front.github.io/ochre-releases/</link>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Privacy and security fixes. Nothing changes in how you use Ochre.
+
+- Feedback is sent a safer way. It still reaches me the same as before.
+- Fetching a link's title, picture and icon no longer keeps cookies from those sites, so they can't follow you from one saved link to the next.
+- Importing an Ochre library only reads files inside it.
+- Previews of your notes don't stay behind after you delete them.
+]]></description>
+            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.1/Ochre-0.1.1.dmg" length="14315981" type="application/octet-stream" sparkle:edSignature="mOCUWB/FotyoUStQ7/witKOhuHemHhDqKoNbNREEV1cl58uC4orvLCRbSFOwg2V+vuf7rh9V5mjpyzd6UJMXCg=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Sat, 07 Nov 2026 18:28:41 +0000</pubDate>
             <link>https://base-front.github.io/ochre-releases/</link>
