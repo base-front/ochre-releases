@@ -3,6 +3,20 @@
     <channel>
         <title>Ochre</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Sun, 08 Nov 2026 22:09:31 +0000</pubDate>
+            <link>https://base-front.github.io/ochre-releases/</link>
+            <sparkle:version>172</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Ochre is now signed and notarized by Apple. Nothing changes in how you use it.
+
+- Opening Ochre for the first time no longer needs a trip to System Settings: macOS just asks once whether to open an app downloaded from the internet.
+- Updates are checked by Apple before they reach you.
+]]></description>
+            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.2/Ochre-0.1.2.dmg" length="14466724" type="application/octet-stream" sparkle:edSignature="2HixBtAy3xIjT+3Fv8BxKq2moRJNW2aiDNEB2lj/k6sfaPwv4NLM0c1TfEw0NopnqeWZ8y3Od8JFTgDwOow7DA=="/>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Sat, 07 Nov 2026 23:10:54 +0000</pubDate>
             <link>https://base-front.github.io/ochre-releases/</link>
