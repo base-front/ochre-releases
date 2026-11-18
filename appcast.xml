@@ -3,6 +3,25 @@
     <channel>
         <title>Ochre</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 18 Nov 2026 23:08:36 +0000</pubDate>
+            <link>https://base-front.github.io/ochre-releases/</link>
+            <sparkle:version>181</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Folder groups, and a fresh coat of paint.
+
+- **Groups** in the side panel: right-click a folder, or several, and choose *group folders*. Fold a group to tidy it away; the folder you have open stays in sight. Rename one with ⌘R or a right-click.
+- Drag folders and whole groups to reorder them, in and out of groups. The row lifts and the others make room.
+- 18 new folder colours, nine bright and nine subtle. The bar at the top takes on the open folder's colour.
+- Send feedback has moved to the top bar, next to the sidebar button.
+- Getting started folds down to the bottom of the side panel, and the panel scrolls as one.
+- Calmer search: quieter recent searches and actions, tighter lists.
+- Smoother scrolling, especially in big folders and the grid.
+]]></description>
+            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.2.0/Ochre-0.2.0.dmg" length="15274534" type="application/octet-stream" sparkle:edSignature="kWFdI/aWxog/ZGNlNogSPASwUWHglbolWMOM2srGowfPZrvG6h+tLXFyRBfcGkhYUdrdny3KgJM9U161pDRZAw=="/>
+        </item>
+        <item>
             <title>0.1.2</title>
             <pubDate>Sun, 08 Nov 2026 22:09:31 +0000</pubDate>
             <link>https://base-front.github.io/ochre-releases/</link>
@@ -31,20 +50,6 @@
 - Previews of your notes don't stay behind after you delete them.
 ]]></description>
             <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.1/Ochre-0.1.1.dmg" length="14315981" type="application/octet-stream" sparkle:edSignature="mOCUWB/FotyoUStQ7/witKOhuHemHhDqKoNbNREEV1cl58uC4orvLCRbSFOwg2V+vuf7rh9V5mjpyzd6UJMXCg=="/>
-        </item>
-        <item>
-            <title>0.1.0</title>
-            <pubDate>Sat, 07 Nov 2026 18:28:41 +0000</pubDate>
-            <link>https://base-front.github.io/ochre-releases/</link>
-            <sparkle:version>166</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The first test build. Thanks for trying Ochre!
-
-- Save links, notes, to-dos and images; sort them into folders.
-- Send feedback with the star bubble at the bottom left of the side panel.
-]]></description>
-            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.0/Ochre-0.1.0.dmg" length="14283176" type="application/octet-stream" sparkle:edSignature="SHZwwJYEbhXKqrw5uEY3eSaajucr/N9Hww86/CY7rSC8CloVx2g2vV+S8Im/FigxV+wOWO4Yw261IXgMwkzjBQ=="/>
         </item>
     </channel>
 </rss>
