@@ -3,6 +3,21 @@
     <channel>
         <title>Ochre</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Thu, 19 Nov 2026 18:23:11 +0000</pubDate>
+            <link>https://base-front.github.io/ochre-releases/</link>
+            <sparkle:version>183</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Paste to save, smarter search, and a lot of polish.
+
+- Press ⌘V anywhere outside a text field to save what's on the clipboard into the open folder: links, images, and links to images. Plain text too, if you turn it on in Settings → Bookmarks.
+- Links now keep their page's description. It shows in Quick Look, and search looks through it, with title matches listed first.
+- GIFs play in grid view while you hover over them or select them.
+]]></description>
+            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.2.1/Ochre-0.2.1.dmg" length="15687426" type="application/octet-stream" sparkle:edSignature="Z57+KTjGcAtgYMgkYQji31lyxg2M+tav06TqOHEx3U+PmPQvccfwHW86wmIkdWGDesLVuH2dZPy8SCDCkz/0Bg=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Wed, 18 Nov 2026 23:08:36 +0000</pubDate>
             <link>https://base-front.github.io/ochre-releases/</link>
@@ -34,22 +49,6 @@
 - Updates are checked by Apple before they reach you.
 ]]></description>
             <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.2/Ochre-0.1.2.dmg" length="14466724" type="application/octet-stream" sparkle:edSignature="2HixBtAy3xIjT+3Fv8BxKq2moRJNW2aiDNEB2lj/k6sfaPwv4NLM0c1TfEw0NopnqeWZ8y3Od8JFTgDwOow7DA=="/>
-        </item>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Sat, 07 Nov 2026 23:10:54 +0000</pubDate>
-            <link>https://base-front.github.io/ochre-releases/</link>
-            <sparkle:version>168</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Privacy and security fixes. Nothing changes in how you use Ochre.
-
-- Feedback is sent a safer way. It still reaches me the same as before.
-- Fetching a link's title, picture and icon no longer keeps cookies from those sites, so they can't follow you from one saved link to the next.
-- Importing an Ochre library only reads files inside it.
-- Previews of your notes don't stay behind after you delete them.
-]]></description>
-            <enclosure url="https://github.com/base-front/ochre-releases/releases/download/v0.1.1/Ochre-0.1.1.dmg" length="14315981" type="application/octet-stream" sparkle:edSignature="mOCUWB/FotyoUStQ7/witKOhuHemHhDqKoNbNREEV1cl58uC4orvLCRbSFOwg2V+vuf7rh9V5mjpyzd6UJMXCg=="/>
         </item>
     </channel>
 </rss>
